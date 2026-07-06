@@ -20,3 +20,7 @@ class Student(Person):
 
     def show_marks(self):
         print("Marks: 90")
+
+person = Person("Tom", 33)
+
+person.greet()
