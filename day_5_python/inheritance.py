@@ -17,6 +17,7 @@ class child(Animal):
         #Calling the parent class constructure the following is the parent class constructure
         super().__init__(name) 
         self.roll = roll
+# Any of the methods can also get get the external parameters that we just have to mention in here not in the construturea and when we call the method we can use it 
 
     def show_roll(self):
         result = self.roll
