@@ -6,7 +6,8 @@ class Animal:
 
     def show_name(self):
         print(f"My name is {self.name}")
-
+        result = self.name
+        return result
     def bark(self):
         print("barking barking ")
 
@@ -21,14 +22,19 @@ class child(Animal):
 
     def show_roll(self):
         result = self.roll
+        print(result)
         return result
+    
 
 
 myob = child("Ron", 88)
 
-
-result = myob.show_roll()
-
+result = myob.bark()
 print(result)
+
+
+#result = myob.show_roll()
+
+#print(result)
 
 
