@@ -15,7 +15,10 @@ print("This is the highes bonus: ", maxbonus)
 # conditional 
 print(df[(df['Salary'] > 50000) & (df['Age'] > 25)])
 
-# df.rename(columns={'old column': 'new column'})
+# How to rename the column name
+# df.rename(columns={'old column': 'new column'})]
+
+
 
 
 
