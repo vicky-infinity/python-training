@@ -1,0 +1,11 @@
+emp_id,employee_name,salary,is_active,joining_date,department,experience_years,bonus,work_duration,remarks
+101,Alice,55000.5,True,2023-01-15,HR,5,5000.25,1 days 00:00:00,Good
+102,Bob,62000.75,False,2022-06-10,IT,8,,2 days 00:00:00,Excellent
+103,Charlie,71000.25,True,2024-03-20,Finance,3,7000.5,0 days 12:00:00,Average
+104,David,48000.0,True,2021-11-05,Sales,10,4500.0,3 days 00:00:00,Very Good
+105,Eva,68000.8,False,2020-08-18,Marketing,7,6500.75,0 days 18:00:00,Good
+106,Frank,75000.9,True,2023-09-25,IT,4,8000.0,4 days 00:00:00,Excellent
+107,Grace,53000.4,True,2022-12-30,HR,6,,2 days 06:00:00,Average
+108,Henry,61000.6,False,2021-04-14,Finance,9,7200.4,1 days 12:00:00,Good
+109,Ivy,72000.1,True,2024-01-08,Sales,2,3900.0,0 days 20:00:00,Very Good
+110,Jack,66000.55,True,2023-05-12,Marketing,5,5800.6,5 days 00:00:00,Excellent
