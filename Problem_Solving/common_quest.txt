@@ -1,0 +1,217 @@
+==================================================
+PART 1: 20 Practice Questions
+(LeetCode‑style, Python OOP + Data Handling)
+==================================================
+
+These are problem-based, not MCQs — just like Question 13 from your form.
+
+
+--------------------------------------------------
+🟢 Level 1: Beginner (Foundations)
+--------------------------------------------------
+
+Q1. Student Grades
+Create a class Student with:
+
+- attributes: name, marks
+- method is_pass() → returns True if marks ≥ 40
+
+Create 5 students and print names of students who passed.
+
+
+Q2. Bank Account
+Create a class BankAccount:
+
+- attributes: account_holder, balance
+- methods: deposit(amount), withdraw(amount)
+
+Withdraw only if balance is sufficient.
+Print final balance.
+
+
+Q3. Rectangle
+Create a class Rectangle:
+
+- attributes: length, width
+- method area()
+
+Create a list of rectangles and print areas > 50.
+
+
+Q4. Product Discount (Simple)
+Create a class Product:
+
+- attributes: name, price
+- method discounted_price(percent)
+
+Create 3 products and print a dictionary {name: discounted_price}.
+
+
+Q5. Employee Bonus
+Create a class Employee:
+
+- attributes: name, salary
+- method add_bonus(amount)
+
+Print employees whose final salary > 50,000.
+
+
+--------------------------------------------------
+🟡 Level 2: Beginner → Intermediate
+(Lists, Dicts, Conditions)
+--------------------------------------------------
+
+Q6. Library Books
+Create a class Book:
+
+- attributes: title, price
+- method apply_discount(percent)
+
+Create 5 books and store {title: price} only if price < 300 after discount.
+
+
+Q7. Shopping Cart
+Create a class Item:
+
+- attributes: name, price, quantity
+- method total_price()
+
+Calculate total cart value.
+
+
+Q8. Mobile Phones
+Create a class Mobile:
+
+- attributes: brand, price
+- method is_premium() → price > 50,000
+
+Print premium brands.
+
+
+Q9. Movie Ratings
+Create a class Movie:
+
+- attributes: name, rating
+- method is_hit() → rating ≥ 7
+
+Store hit movies in a list.
+
+
+Q10. Online Course
+Create a class Course:
+
+- attributes: title, duration
+- method is_long_course() → duration > 20 hours
+
+Build dictionary {title: duration} for long courses.
+
+
+--------------------------------------------------
+🔵 Level 3: Intermediate
+(Filtering, Object Lists, Dict Building)
+--------------------------------------------------
+
+Q11. Company Employees
+Create a class Employee:
+
+- attributes: name, department, salary
+- method is_high_paid() → salary > 80,000
+
+Create dictionary {name: salary} for high-paid employees.
+
+
+Q12. Orders System
+Create a class Order:
+
+- attributes: order_id, amount
+- method add_tax(percent)
+
+Print orders where final amount > 1000.
+
+
+Q13. College Results
+Create a class Student:
+
+- attributes: name, marks
+- method grade() → "A", "B", "C", "Fail"
+
+Store {name: grade}.
+
+
+Q14. Vehicle Mileage
+Create a class Vehicle:
+
+- attributes: name, mileage
+- method is_fuel_efficient() → mileage > 20
+
+Print efficient vehicles.
+
+
+Q15. Company Products
+Create a class Product:
+
+- attributes: name, price
+- method apply_gst(percent)
+
+Create dictionary for products whose price > 1000 after GST.
+
+
+--------------------------------------------------
+🔴 Level 4: Intermediate
+(Closer to Real Interview Problems)
+--------------------------------------------------
+
+Q16. Inventory Management
+Create a class Item:
+
+- attributes: name, stock
+- method needs_restock() → stock < 10
+
+Print items that need restocking.
+
+
+Q17. Exam Results
+Create a class Result:
+
+- attributes: student_name, score
+- method is_distinction() → score ≥ 75
+
+Store only distinction students in a dictionary.
+
+
+Q18. Hotel Booking
+Create a class Room:
+
+- attributes: room_number, price
+- method apply_season_discount(percent)
+
+Print rooms costing less than 2000 after discount.
+
+
+Q19. Salary Tax System
+Create a class Employee:
+
+- attributes: name, salary
+- method calculate_tax(percent)
+
+Store {name: net_salary} where net salary > 40,000.
+
+
+Q20. E-commerce Final
+(Very Similar to Your Form Question ✅)
+
+Create a class Product:
+
+- attributes: name, price
+- method apply_discount(percent)
+
+Steps:
+
+- Create 5 products
+- Apply 15% discount
+- Build {name: price} only if price > 500
+- Print dictionary
+
+==================================================
+END OF QUESTIONS
+==================================================
