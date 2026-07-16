@@ -1,0 +1,14 @@
+2026-07-15 14:05:10,100 - DEBUG - Debug 
+2026-07-15 14:05:10,100 - INFO - Info 
+2026-07-15 14:05:10,101 - WARNING - Warning 
+2026-07-15 14:05:10,101 - ERROR - Error 
+2026-07-15 14:05:10,101 - CRITICAL - Critical 
+2026-07-15 14:05:10,101 - DEBUG - 10 
+2026-07-15 14:05:10,101 - DEBUG - 10 
+2026-07-15 14:05:10,101 - DEBUG - This is the b 10 
+2026-07-15 14:05:10,101 - ERROR - This is the exception division by zero 
+Traceback (most recent call last):
+  File "C:\Users\VickyVijayPatil\OneDrive - ValueMomentum, Inc\Desktop\python-training\day_11_logger\basic_logging.py", line 24, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero

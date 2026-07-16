@@ -1,0 +1,75 @@
+2026-07-15 15:38:49,477 - __main__ - DEBUG - This is the test
+2026-07-15 15:38:52,681 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 15:38:52,683 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 15:38:52,684 - __main__ - DEBUG - While loop initiated
+2026-07-15 15:38:52,686 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 15:40:02,510 - __main__ - DEBUG - users choosen operation was 1
+2026-07-15 15:40:04,648 - __main__ - DEBUG - The first number entered was 2
+2026-07-15 15:40:06,915 - __main__ - DEBUG - The Second number entered was 2
+2026-07-15 15:40:06,918 - __main__ - DEBUG - If loop initiated
+2026-07-15 15:40:06,919 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 15:42:42,422 - __main__ - DEBUG - This is the test
+2026-07-15 15:42:45,849 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 15:42:45,849 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 15:42:45,850 - __main__ - DEBUG - While loop initiated
+2026-07-15 15:42:45,851 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 15:42:55,051 - __main__ - DEBUG - users choosen operation was 1
+2026-07-15 15:51:09,506 - __main__ - DEBUG - This is the test
+2026-07-15 15:51:12,895 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 15:51:12,895 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 15:51:12,895 - __main__ - DEBUG - While loop initiated
+2026-07-15 15:51:12,896 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 15:51:19,587 - __main__ - DEBUG - users choosen operation was 4
+2026-07-15 15:51:21,623 - __main__ - DEBUG - The first number entered was 3
+2026-07-15 15:51:22,688 - __main__ - DEBUG - The Second number entered was 3
+2026-07-15 15:51:22,689 - __main__ - DEBUG - If loop initiated
+2026-07-15 15:51:22,690 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 15:55:54,849 - __main__ - DEBUG - This is the test
+2026-07-15 15:55:58,244 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 15:55:58,244 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 15:55:58,244 - __main__ - DEBUG - While loop initiated
+2026-07-15 15:55:58,245 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:26:48,939 - __main__ - DEBUG - This is the test
+2026-07-15 16:26:52,956 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 16:26:52,956 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 16:26:52,956 - __main__ - DEBUG - While loop initiated
+2026-07-15 16:26:52,957 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:26:56,516 - __main__ - WARNING - Non num value entered {e}
+2026-07-15 16:28:11,758 - __main__ - DEBUG - This is the test
+2026-07-15 16:28:15,366 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 16:28:15,366 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 16:28:15,367 - __main__ - DEBUG - While loop initiated
+2026-07-15 16:28:15,368 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:28:16,668 - __main__ - ERROR - Non num value entered invalid literal for int() with base 10: 'g'
+Traceback (most recent call last):
+  File "C:\Users\VickyVijayPatil\OneDrive - ValueMomentum, Inc\Desktop\python-training\day_11_logger\clacu.py", line 63, in <module>
+    op = int(input("Enter The Operation 1,2,3 or 4: "))
+ValueError: invalid literal for int() with base 10: 'g'
+2026-07-15 16:33:10,350 - __main__ - DEBUG - This is the test
+2026-07-15 16:33:13,985 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 16:33:13,985 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 16:33:13,985 - __main__ - DEBUG - While loop initiated
+2026-07-15 16:33:13,985 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:33:16,600 - __main__ - ERROR - Non num value entered invalid literal for int() with base 10: 'ddf'
+Traceback (most recent call last):
+  File "C:\Users\VickyVijayPatil\OneDrive - ValueMomentum, Inc\Desktop\python-training\day_11_logger\clacu.py", line 63, in <module>
+    op = int(input("Enter The Operation 1,2,3 or 4: "))
+ValueError: invalid literal for int() with base 10: 'ddf'
+2026-07-15 16:33:16,606 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:44:39,825 - __main__ - DEBUG - This is the test
+2026-07-15 16:44:43,465 - __main__ - DEBUG - Pandas liberary imported
+2026-07-15 16:44:43,466 - __main__ - DEBUG - numpy liberary imported
+2026-07-15 16:44:43,466 - __main__ - DEBUG - While loop initiated
+2026-07-15 16:44:43,467 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:44:46,200 - __main__ - ERROR - Non num value entered invalid literal for int() with base 10: 'fdffddddddddddd'
+Traceback (most recent call last):
+  File "C:\Users\VickyVijayPatil\OneDrive - ValueMomentum, Inc\Desktop\python-training\day_11_logger\clacu.py", line 63, in <module>
+    op = int(input("Enter The Operation 1,2,3 or 4: "))
+ValueError: invalid literal for int() with base 10: 'fdffddddddddddd'
+2026-07-15 16:44:46,205 - __main__ - CRITICAL - User tryed entering the non numeric value loop initiated again
+2026-07-15 16:44:46,206 - __main__ - DEBUG - Show Information Function Declared
+2026-07-15 16:45:01,454 - __main__ - DEBUG - users choosen operation was 1
+2026-07-15 16:45:04,172 - __main__ - DEBUG - The first number entered was 2
+2026-07-15 16:45:05,125 - __main__ - DEBUG - The Second number entered was 4
+2026-07-15 16:45:05,127 - __main__ - DEBUG - If loop initiated
+2026-07-15 16:45:05,128 - __main__ - DEBUG - Show Information Function Declared

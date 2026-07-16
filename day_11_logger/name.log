@@ -1,0 +1,38 @@
+DEBUG:root:Debug
+INFO:root:Info
+WARNING:root:Warning
+ERROR:root:Error
+CRITICAL:root:Critical
+2026-07-15 12:38:25,008 - DEBUG - Debug 
+2026-07-15 12:38:25,008 - INFO - Info 
+2026-07-15 12:38:25,008 - WARNING - Warning 
+2026-07-15 12:38:25,008 - ERROR - Error 
+2026-07-15 12:38:25,008 - CRITICAL - Critical 
+2026-07-15 12:45:53,267 - DEBUG - Debug 
+2026-07-15 12:45:53,311 - INFO - Info 
+2026-07-15 12:45:53,311 - WARNING - Warning 
+2026-07-15 12:45:53,311 - ERROR - Error 
+2026-07-15 12:45:53,311 - CRITICAL - Critical 
+2026-07-15 12:45:53,312 - DEBUG - 10 
+2026-07-15 12:45:53,312 - DEBUG - 10 
+2026-07-15 12:45:53,312 - DEBUG - This is the b 10 
+2026-07-15 12:52:55,495 - DEBUG - Debug 
+2026-07-15 12:52:55,496 - INFO - Info 
+2026-07-15 12:52:55,496 - WARNING - Warning 
+2026-07-15 12:52:55,496 - ERROR - Error 
+2026-07-15 12:52:55,496 - CRITICAL - Critical 
+2026-07-15 12:52:55,496 - DEBUG - 10 
+2026-07-15 12:53:15,557 - DEBUG - Debug 
+2026-07-15 12:53:15,557 - INFO - Info 
+2026-07-15 12:53:15,558 - WARNING - Warning 
+2026-07-15 12:53:15,558 - ERROR - Error 
+2026-07-15 12:53:15,558 - CRITICAL - Critical 
+2026-07-15 12:53:15,558 - DEBUG - 10 
+2026-07-15 12:53:15,558 - DEBUG - 10 
+2026-07-15 12:53:15,558 - DEBUG - This is the b 10 
+2026-07-15 12:53:15,558 - ERROR - This is the exception division by zero 
+Traceback (most recent call last):
+  File "C:\Users\VickyVijayPatil\OneDrive - ValueMomentum, Inc\Desktop\python-training\day_11_logger\basic_logging.py", line 24, in <module>
+    1/0
+    ~^~
+ZeroDivisionError: division by zero
