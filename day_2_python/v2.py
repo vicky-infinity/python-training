@@ -2,7 +2,7 @@
 
 
 class info:
-    def __init__(self,name:chr,age:int,phone,city,pin,roll,marks):
+    def __init__(self, name:chr, age:int, phone, city, pin, roll, marks):
         self.name = name
         self.age = age
         self.phone = phone

@@ -2,6 +2,7 @@
 
 
 class info:
+    # Class constructor
     def __init__(self,name,age,phone,city,pin,roll,marks):
         self.name = name
         self.age = age
@@ -12,13 +13,10 @@ class info:
         self.marks = marks
 
 
-    def greet(self,name):
-            self.name = name
-            print("Hey", name)
+    def greet(self):
+            print("Hey: ", self.name)
 
-    def comb(self,name,marks):
-         name = name
-         marks = marks
+    def comb(self):
          print(self.name," ",self.roll)
 
 s1 = info("vicky",1,1,1,1,10569,1)
