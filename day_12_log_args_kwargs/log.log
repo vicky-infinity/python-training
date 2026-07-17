@@ -1,0 +1,20 @@
+2026-07-16 17:34:04,849 - ExecutionLogger - DEBUG - This is the test
+2026-07-16 17:34:04,850 - ExecutionLogger - WARNING - This is the warning test
+2026-07-16 17:34:04,850 - ExecutionLogger - INFO - Function: long_exc_function Inputs are (50, 50, 'Vicky') and {}
+2026-07-16 17:34:07,851 - ExecutionLogger - DEBUG - Execution time printed
+2026-07-16 17:34:07,851 - ExecutionLogger - WARNING - Long function long_exc_function is Executed
+2026-07-16 17:34:07,851 - ExecutionLogger - INFO - Exc Time of long_exc_function appented to the list
+2026-07-16 17:34:07,851 - ExecutionLogger - INFO - Function: quick_exc_function Inputs are ('123',) and {}
+2026-07-16 17:34:07,852 - ExecutionLogger - DEBUG - Execution time printed
+2026-07-16 17:34:07,852 - ExecutionLogger - DEBUG - Short Function is Exe.. name is quick_exc_function
+2026-07-16 17:34:07,852 - ExecutionLogger - DEBUG - Function: quick_exc_function Execution time is appended to the list
+2026-07-17 10:09:47,306 - ExecutionLogger - DEBUG - This is the test
+2026-07-17 10:09:47,307 - ExecutionLogger - WARNING - This is the warning test
+2026-07-17 10:09:47,307 - ExecutionLogger - INFO - Function: long_exc_function Inputs are (50, 50, 'Vicky') and {}
+2026-07-17 10:09:50,308 - ExecutionLogger - DEBUG - Execution time printed
+2026-07-17 10:09:50,309 - ExecutionLogger - WARNING - Long function long_exc_function is Executed
+2026-07-17 10:09:50,309 - ExecutionLogger - INFO - Exc Time of long_exc_function appented to the list
+2026-07-17 10:09:50,309 - ExecutionLogger - INFO - Function: quick_exc_function Inputs are ('123',) and {}
+2026-07-17 10:09:50,310 - ExecutionLogger - DEBUG - Execution time printed
+2026-07-17 10:09:50,310 - ExecutionLogger - DEBUG - Short Function is Exe.. name is quick_exc_function
+2026-07-17 10:09:50,310 - ExecutionLogger - DEBUG - Function: quick_exc_function Execution time is appended to the list
