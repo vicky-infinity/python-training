@@ -1,0 +1,18 @@
+logging 
+types of logs
+
+
+decorators
+args and kawargs
+
+
+types of authentications 
+what are tokens what are JWT authorization 
+sql alchemy and sql  using python 
+
+Should be able to write the sql queries by my own
+
+# Questions on list , list comprehension, lambdas etc
+# Questions on dataframe , and the manipulations, aggregations , filters , Joins Group by
+# Definitions of the all the topics 
+# String operations (all) with and without using inbuilt functions
