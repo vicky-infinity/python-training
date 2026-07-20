@@ -4,6 +4,8 @@
 class info:
     # Class constructor
     def __init__(self,name,age,phone,city,pin,roll,marks):
+        # These are the attributes 
+        # We can access the attributes with using dot like object.attribut example ob1.name and it will print the attribute value        self.name = name
         self.name = name
         self.age = age
         self.phone = phone
@@ -14,7 +16,7 @@ class info:
 
 
     def greet(self):
-            print("Hey: ", self.name)
+            print("Hey Good morning: ", self.name)
 
     def comb(self):
          print(self.name," ",self.roll)
