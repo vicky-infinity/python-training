@@ -215,3 +215,10 @@ Steps:
 ==================================================
 END OF QUESTIONS
 ==================================================
+
+
+
+# Questions on list , list comprehension, lambdas etc
+# Questions on dataframe , and the manipulations, aggregations , filters , Joins Group by
+# Definitions of the all the topics 
+# String operations (all) with and without using inbuilt functions
