@@ -1,7 +1,7 @@
 # Calculater using the class and object concept
 
 
-class math:
+class math():
     def __init__(self,op, num1, num2):
         self.op = op
         self.num1 = num1
