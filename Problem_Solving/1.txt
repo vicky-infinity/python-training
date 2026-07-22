@@ -1,0 +1,279 @@
+==================================================
+PYTHON REVISION WORKBOOK
+Level 1 - Foundations (Questions 1-10)
+Difficulty: ⭐☆☆☆☆
+Focus:
+- Classes & Objects
+- Lists
+- Dictionaries
+- Loops
+- if-else
+- Functions
+- Basic Methods
+==================================================
+
+
+--------------------------------------------------
+Q1. Student Attendance System
+--------------------------------------------------
+
+Create a class Student.
+
+Attributes:
+- name
+- attendance_percentage
+
+Methods:
+- is_eligible() → returns True if attendance is at least 75%.
+
+Tasks:
+
+- Create 6 students.
+- Store all students in a list.
+- Build a dictionary {student_name: attendance_percentage} for eligible students.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q2. Grocery Store Billing
+--------------------------------------------------
+
+Create a class GroceryItem.
+
+Attributes:
+- name
+- price
+- quantity
+
+Methods:
+- total_cost() → returns total cost of the item.
+
+Tasks:
+
+- Create 5 grocery items.
+- Store them in a list.
+- Calculate the grand total bill.
+- Print items whose total cost is greater than ₹500.
+
+
+--------------------------------------------------
+Q3. Movie Collection
+--------------------------------------------------
+
+Create a class Movie.
+
+Attributes:
+- title
+- genre
+- rating
+
+Methods:
+- is_recommended() → returns True if rating is at least 8.
+
+Tasks:
+
+- Create 7 movies.
+- Store them in a list.
+- Create a new list containing only recommended movie titles.
+- Print the list.
+
+
+--------------------------------------------------
+Q4. Employee Salary Tracker
+--------------------------------------------------
+
+Create a class Employee.
+
+Attributes:
+- employee_id
+- name
+- salary
+
+Methods:
+- increase_salary(amount)
+
+Tasks:
+
+- Create 5 employees.
+- Increase every employee's salary by ₹3000.
+- Store employees having salary above ₹50,000 in a dictionary
+  {employee_name: salary}.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q5. Library Book Records
+--------------------------------------------------
+
+Create a class Book.
+
+Attributes:
+- title
+- author
+- price
+
+Methods:
+- apply_discount(percent)
+
+Tasks:
+
+- Create 8 books.
+- Apply a 20% discount to every book.
+- Store books costing less than ₹350 in a dictionary
+  {title: discounted_price}.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q6. Restaurant Menu
+--------------------------------------------------
+
+Create a class FoodItem.
+
+Attributes:
+- item_name
+- price
+- category
+
+Methods:
+- is_affordable() → returns True if price is below ₹250.
+
+Tasks:
+
+- Create 6 food items.
+- Store them in a list.
+- Print the names of all affordable food items.
+- Also print the total number of affordable items.
+
+
+--------------------------------------------------
+Q7. Mobile Phone Store
+--------------------------------------------------
+
+Create a class Mobile.
+
+Attributes:
+- brand
+- model
+- price
+
+Methods:
+- apply_discount(percent)
+
+Tasks:
+
+- Create 5 mobile phones.
+- Apply a 10% discount.
+- Build a dictionary {model: final_price} for mobiles whose final price is above ₹20,000.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q8. Hospital Patient Records
+--------------------------------------------------
+
+Create a class Patient.
+
+Attributes:
+- patient_id
+- name
+- age
+
+Methods:
+- is_senior() → returns True if age is at least 60.
+
+Tasks:
+
+- Create 7 patients.
+- Store all patients in a list.
+- Print names of all senior citizens.
+- Print the total number of senior citizens.
+
+
+--------------------------------------------------
+Q9. Online Course Portal
+--------------------------------------------------
+
+Create a class Course.
+
+Attributes:
+- title
+- duration
+- fee
+
+Methods:
+- is_long_course() → returns True if duration is greater than 25 hours.
+
+Tasks:
+
+- Create 6 courses.
+- Store them in a list.
+- Build a dictionary
+  {course_title: duration}
+  for long-duration courses.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q10. Vehicle Service Center
+--------------------------------------------------
+
+Create a class Vehicle.
+
+Attributes:
+- owner_name
+- vehicle_number
+- service_cost
+
+Methods:
+- add_service_charge(amount)
+
+Tasks:
+
+- Create 6 vehicles.
+- Add a service charge of ₹500 to every vehicle.
+- Print details of vehicles whose final service cost exceeds ₹4000.
+- Also print the total service revenue.
+
+#####################################################################################333
+##########################################################################################3
+
+==================================================
+REVISION COMPANION
+Level 1 (Questions 1-10)
+==================================================
+
+Q1. Student Attendance System
+
+Concepts Covered
+---------------
+✓ Class & Object
+✓ __init__()
+✓ Instance Variables
+✓ Method returning boolean
+✓ List
+✓ Dictionary
+✓ for loop
+✓ if condition
+
+Thinking Process
+----------------
+1. Design the Student class.
+2. Store all objects inside a list.
+3. Iterate through every object.
+4. Call the method.
+5. If it returns True, insert the data into a dictionary.
+6. Print the final dictionary.
+
+Things You'll Use
+-----------------
+- Object creation
+- append()
+- Dictionary assignment
+- Method calling
+- Object.attribute
+- Looping over object list
+
+Difficulty
+----------
+⭐☆☆☆☆

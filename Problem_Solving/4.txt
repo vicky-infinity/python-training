@@ -1,0 +1,222 @@
+==================================================
+PYTHON REVISION WORKBOOK
+Level 4 - Advanced Intermediate
+Questions 31–40
+Difficulty: ⭐⭐⭐⭐☆
+Focus:
+- Decorators
+- Logging
+- Advanced Exception Handling
+- Composition
+- File Handling
+- Data Validation
+- Multiple Classes
+- Real-world Scenarios
+==================================================
+
+
+--------------------------------------------------
+Q31. Employee Attendance Logger
+--------------------------------------------------
+
+Create a class Employee.
+
+Attributes:
+- employee_id
+- name
+- attendance
+
+Methods:
+- mark_attendance(status)
+
+Requirements:
+
+- Create a decorator to log the execution time of mark_attendance().
+- Log every attendance update using the logging module.
+- Raise an exception for invalid attendance status.
+- Create 6 employees and update their attendance.
+- Print all employee records.
+
+
+--------------------------------------------------
+Q32. Banking Transaction Audit
+--------------------------------------------------
+
+Create a class BankAccount.
+
+Attributes:
+- account_number
+- account_holder
+- balance
+
+Methods:
+- deposit(amount)
+- withdraw(amount)
+
+Requirements:
+
+- Log every successful transaction.
+- Raise appropriate exceptions for invalid deposits or withdrawals.
+- Create a decorator to print a success message after every valid transaction.
+- Create 5 bank accounts.
+- Print the final balance of every account.
+
+
+--------------------------------------------------
+Q33. Online Shopping Order Manager
+--------------------------------------------------
+
+Create two classes:
+
+Customer
+- customer_id
+- name
+
+Order
+- order_id
+- customer
+- products
+- total_amount
+
+Requirements:
+
+- One Customer can have multiple Orders.
+- Store Order objects inside each Customer.
+- Log every new order.
+- Print customers whose total purchase amount exceeds ₹10,000.
+
+
+--------------------------------------------------
+Q34. Hospital Appointment Manager
+--------------------------------------------------
+
+Create three classes:
+
+Patient
+Doctor
+Appointment
+
+Requirements:
+
+- An Appointment should contain one Patient and one Doctor object.
+- Validate appointment fees.
+- Raise exceptions for invalid fees.
+- Log every appointment booking.
+- Print appointments whose consultation fee exceeds ₹1500.
+
+
+--------------------------------------------------
+Q35. Inventory File Manager
+--------------------------------------------------
+
+Create a class Product.
+
+Attributes:
+- product_id
+- product_name
+- stock
+- price
+
+Requirements:
+
+- Create multiple Product objects.
+- Save all product details to a text file.
+- Read the file back.
+- Display products having stock below 15.
+- Handle file-related exceptions.
+
+
+--------------------------------------------------
+Q36. College Management System
+--------------------------------------------------
+
+Create a base class Person.
+
+Child classes:
+
+- Student
+- Professor
+
+Requirements:
+
+- Override a method display_role().
+- Create a College class that stores both students and professors.
+- Use polymorphism to display everyone's role.
+- Log whenever a new member joins the college.
+
+
+--------------------------------------------------
+Q37. Restaurant Billing with Offers
+--------------------------------------------------
+
+Create two classes:
+
+MenuItem
+Restaurant
+
+Requirements:
+
+- Restaurant should store multiple MenuItem objects.
+- Calculate the total bill.
+- Apply different discounts based on bill amount.
+- Use exception handling for invalid prices.
+- Print the final bill for every customer.
+
+
+--------------------------------------------------
+Q38. Cab Booking Platform
+--------------------------------------------------
+
+Create three classes:
+
+Driver
+Passenger
+Ride
+
+Requirements:
+
+- A Ride should contain one Driver and one Passenger.
+- Calculate ride fare based on distance.
+- Use a decorator to display booking confirmation.
+- Log every completed ride.
+- Print rides whose fare exceeds ₹800.
+
+
+--------------------------------------------------
+Q39. University Examination Portal
+--------------------------------------------------
+
+Create two classes:
+
+Student
+Result
+
+Requirements:
+
+- One Result object should belong to one Student.
+- Calculate grades.
+- Raise exceptions for invalid marks.
+- Log every generated result.
+- Build a dictionary
+  {student_name: grade}
+  for students who passed.
+
+
+--------------------------------------------------
+Q40. Warehouse Shipment Tracker
+--------------------------------------------------
+
+Create three classes:
+
+Warehouse
+Product
+Shipment
+
+Requirements:
+
+- A Warehouse stores multiple Product objects.
+- A Shipment contains multiple Products.
+- Calculate the total shipment value.
+- Log every shipment.
+- Raise exceptions if shipment quantity exceeds available stock.
+- Print shipments worth more than ₹50,000.

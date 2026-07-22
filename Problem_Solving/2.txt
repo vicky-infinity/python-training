@@ -1,0 +1,240 @@
+==================================================
+PYTHON REVISION WORKBOOK
+Level 2 - Beginner → Intermediate
+Questions 11–20
+Difficulty: ⭐⭐☆☆☆
+Focus:
+- Object Lists
+- Dictionary Building
+- List Comprehensions
+- Lambda Functions
+- Tuples
+- Exception Handling (Basic)
+- Functions
+- Data Validation
+==================================================
+
+
+--------------------------------------------------
+Q11. School Result Management
+--------------------------------------------------
+
+Create a class Student.
+
+Attributes:
+- roll_number
+- name
+- marks
+
+Methods:
+- calculate_grade()
+
+Tasks:
+
+- Create 8 students.
+- Store all students in a list.
+- Build a dictionary {student_name: grade}.
+- Print only students whose grade is "A" or "B".
+
+
+--------------------------------------------------
+Q12. ATM Withdrawal System
+--------------------------------------------------
+
+Create a class BankAccount.
+
+Attributes:
+- account_number
+- holder_name
+- balance
+
+Methods:
+- deposit(amount)
+- withdraw(amount)
+
+Tasks:
+
+- Create 5 bank accounts.
+- Perform multiple deposits and withdrawals.
+- Do not allow withdrawal if the balance is insufficient.
+- Handle invalid withdrawal amounts using exception handling.
+- Print the final balance of every account.
+
+
+--------------------------------------------------
+Q13. Employee Directory
+--------------------------------------------------
+
+Create a class Employee.
+
+Attributes:
+- employee_id
+- name
+- department
+- salary
+
+Methods:
+- annual_salary()
+
+Tasks:
+
+- Create 7 employees.
+- Store them in a list.
+- Sort the employees based on salary using a lambda function.
+- Print the sorted employee names with their salaries.
+
+
+--------------------------------------------------
+Q14. Shopping Cart Summary
+--------------------------------------------------
+
+Create a class Item.
+
+Attributes:
+- item_name
+- price
+- quantity
+
+Methods:
+- total_price()
+
+Tasks:
+
+- Create 6 items.
+- Store them in a list.
+- Using list comprehension, create a new list containing item names whose total price is greater than ₹1000.
+- Print the list.
+
+
+--------------------------------------------------
+Q15. Flight Reservation
+--------------------------------------------------
+
+Create a class Passenger.
+
+Attributes:
+- passenger_name
+- age
+- ticket_price
+
+Methods:
+- is_senior_citizen()
+
+Tasks:
+
+- Create 8 passengers.
+- Store each passenger's information as a tuple inside a list.
+- Print all senior citizens.
+- Also print the total amount collected from ticket bookings.
+
+
+--------------------------------------------------
+Q16. University Course Portal
+--------------------------------------------------
+
+Create a class Course.
+
+Attributes:
+- course_name
+- instructor
+- duration
+
+Methods:
+- is_certification_course()
+
+Tasks:
+
+- Create 6 courses.
+- Store all objects in a list.
+- Build a dictionary containing only certification courses.
+- Display the dictionary sorted alphabetically by course name.
+
+
+--------------------------------------------------
+Q17. Warehouse Inventory
+--------------------------------------------------
+
+Create a class Product.
+
+Attributes:
+- product_id
+- product_name
+- stock
+
+Methods:
+- update_stock(quantity)
+
+Tasks:
+
+- Create 7 products.
+- Increase or decrease stock based on incoming values.
+- Raise an exception if stock becomes negative.
+- Print products whose stock is below 15.
+
+
+--------------------------------------------------
+Q18. Online Food Delivery
+--------------------------------------------------
+
+Create a class Order.
+
+Attributes:
+- customer_name
+- restaurant_name
+- order_amount
+
+Methods:
+- apply_coupon(percent)
+
+Tasks:
+
+- Create 6 orders.
+- Apply a coupon discount.
+- Using dictionary comprehension, build
+  {customer_name: final_amount}
+  only for orders above ₹500.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q19. Cricket Team Statistics
+--------------------------------------------------
+
+Create a class Player.
+
+Attributes:
+- player_name
+- runs
+- matches
+
+Methods:
+- batting_average()
+
+Tasks:
+
+- Create 8 players.
+- Store them in a list.
+- Sort players based on batting average using lambda.
+- Print the top 5 players.
+
+
+--------------------------------------------------
+Q20. Hospital Appointment System
+--------------------------------------------------
+
+Create a class Appointment.
+
+Attributes:
+- patient_name
+- doctor_name
+- consultation_fee
+
+Methods:
+- add_service_charge(amount)
+
+Tasks:
+
+- Create 6 appointments.
+- Add a service charge of ₹200 to every appointment.
+- Store only appointments whose final fee is above ₹1000 in a dictionary.
+- Print the dictionary.

@@ -1,0 +1,265 @@
+==================================================
+PYTHON REVISION WORKBOOK
+Level 3 - Intermediate
+Questions 21–30
+Difficulty: ⭐⭐⭐☆☆
+Focus:
+- Inheritance
+- Method Overriding (Polymorphism)
+- super()
+- Nested Data Structures
+- *args
+- **kwargs
+- Filtering & Sorting
+- Object Relationships
+==================================================
+
+
+--------------------------------------------------
+Q21. Company Payroll System
+--------------------------------------------------
+
+Create a base class Employee.
+
+Attributes:
+- employee_id
+- name
+- basic_salary
+
+Methods:
+- calculate_salary()
+
+Create two child classes:
+
+- FullTimeEmployee
+- ContractEmployee
+
+Each class should calculate the final salary differently.
+
+Tasks:
+
+- Create a list containing both types of employees.
+- Use polymorphism to calculate the salary of every employee.
+- Build a dictionary {employee_name: final_salary} for employees earning more than ₹60,000.
+- Print the dictionary.
+
+
+--------------------------------------------------
+Q22. Vehicle Rental Service
+--------------------------------------------------
+
+Create a base class Vehicle.
+
+Attributes:
+- vehicle_number
+- brand
+- rent_per_day
+
+Methods:
+- calculate_rent(days)
+
+Create child classes:
+
+- Car
+- Bike
+
+Override the rent calculation method.
+
+Tasks:
+
+- Create different vehicle objects.
+- Store them in a single list.
+- Calculate the rent for 5 days.
+- Print only vehicles whose rent exceeds ₹5000.
+
+
+--------------------------------------------------
+Q23. Online Learning Platform
+--------------------------------------------------
+
+Create a base class Course.
+
+Attributes:
+- course_name
+- instructor
+- fee
+
+Methods:
+- final_fee()
+
+Create child classes:
+
+- RecordedCourse
+- LiveCourse
+
+Tasks:
+
+- Apply different discount rules for each course type.
+- Store all course objects in a list.
+- Sort them according to final fee.
+- Print the sorted list.
+
+
+--------------------------------------------------
+Q24. Hospital Staff Management
+--------------------------------------------------
+
+Create a base class Staff.
+
+Attributes:
+- name
+- department
+
+Create child classes:
+
+- Doctor
+- Nurse
+
+Each class should have its own implementation of a method
+daily_allowance().
+
+Tasks:
+
+- Store all staff members in one list.
+- Calculate their allowances using polymorphism.
+- Print the details of staff receiving allowance above ₹2000.
+
+
+--------------------------------------------------
+Q25. Restaurant Billing System
+--------------------------------------------------
+
+Create a class Order.
+
+Attributes:
+- table_number
+- items
+- prices
+
+Methods:
+- calculate_bill()
+
+Tasks:
+
+- Accept multiple prices using *args.
+- Calculate the total bill.
+- Create 5 orders.
+- Print orders where the bill exceeds ₹2500.
+
+
+--------------------------------------------------
+Q26. Student Information Portal
+--------------------------------------------------
+
+Create a class Student.
+
+Attributes:
+- roll_number
+- name
+
+Methods:
+- update_details(**kwargs)
+
+Tasks:
+
+- Create 6 students.
+- Update different attributes using keyword arguments.
+- Print the updated records.
+- Ignore attributes that do not exist.
+
+
+--------------------------------------------------
+Q27. E-Commerce Product Catalog
+--------------------------------------------------
+
+Create a base class Product.
+
+Attributes:
+- product_name
+- price
+
+Create child classes:
+
+- Electronics
+- Clothing
+
+Each category should have its own GST calculation.
+
+Tasks:
+
+- Store all products together.
+- Calculate the final price using polymorphism.
+- Build a dictionary containing products whose final price exceeds ₹5000.
+
+
+--------------------------------------------------
+Q28. School Bus Management
+--------------------------------------------------
+
+Create a class Bus.
+
+Attributes:
+- bus_number
+- driver_name
+- students
+
+Methods:
+- add_student(student_name)
+
+Tasks:
+
+- Create 4 buses.
+- Add multiple students to each bus.
+- Store student names in nested lists.
+- Print buses having more than 25 students.
+
+
+--------------------------------------------------
+Q29. Bank Transaction Summary
+--------------------------------------------------
+
+Create a class Transaction.
+
+Attributes:
+- transaction_id
+- account_number
+- amount
+- transaction_type
+
+Methods:
+- is_large_transaction()
+
+Tasks:
+
+- Create multiple transactions.
+- Store them in a list.
+- Sort transactions by amount using lambda.
+- Print only large transactions.
+- Count deposits and withdrawals separately.
+
+
+--------------------------------------------------
+Q30. Library Membership System
+--------------------------------------------------
+
+Create a base class Member.
+
+Attributes:
+- member_id
+- member_name
+
+Methods:
+- borrowing_limit()
+
+Create child classes:
+
+- StudentMember
+- FacultyMember
+
+Tasks:
+
+- Override the borrowing limit for each member type.
+- Create a mixed list of members.
+- Print every member along with their borrowing limit.
+- Build a dictionary
+  {member_name: borrowing_limit}.

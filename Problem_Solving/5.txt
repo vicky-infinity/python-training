@@ -1,0 +1,252 @@
+==================================================
+PYTHON REVISION WORKBOOK
+Level 5 - Interview Challenge
+Questions 41–50
+Difficulty: ⭐⭐⭐⭐⭐
+Focus:
+- Real-world Mini Systems
+- OOP Design
+- Inheritance & Polymorphism
+- Decorators
+- Logging
+- Exception Handling
+- *args & **kwargs
+- Lambda
+- Comprehensions
+- File Handling
+- Data Processing
+==================================================
+
+
+--------------------------------------------------
+Q41. E-Commerce Order Processing System
+--------------------------------------------------
+
+Design a mini e-commerce system.
+
+Create the following classes:
+
+- Customer
+- Product
+- Order
+
+Requirements:
+
+- A Customer can place multiple Orders.
+- An Order can contain multiple Products.
+- Calculate the final order amount after applying category-wise discounts.
+- Log every successful order.
+- Raise exceptions for invalid product prices or quantities.
+- Display the top 3 customers based on total purchase amount.
+- Build a dictionary
+  {customer_name: total_spent}.
+
+
+--------------------------------------------------
+Q42. Digital Banking Portal
+--------------------------------------------------
+
+Create the following classes:
+
+- Customer
+- BankAccount
+- Transaction
+
+Requirements:
+
+- A Customer can own multiple bank accounts.
+- Support deposits, withdrawals and fund transfers.
+- Record every transaction.
+- Validate transaction amounts.
+- Raise appropriate exceptions.
+- Use a decorator to log execution time for fund transfers.
+- Display the account with the highest balance.
+- Save transaction history to a file.
+
+
+--------------------------------------------------
+Q43. Smart Library Management System
+--------------------------------------------------
+
+Create the following classes:
+
+- Member
+- Book
+- Library
+
+Requirements:
+
+- A Library stores multiple Book objects.
+- Members can borrow and return books.
+- Different member types should have different borrowing limits.
+- Log every borrow and return activity.
+- Raise exceptions when books are unavailable.
+- Display the most borrowed books.
+- Save currently issued books to a file.
+
+
+--------------------------------------------------
+Q44. Hospital Information System
+--------------------------------------------------
+
+Create the following classes:
+
+- Patient
+- Doctor
+- Appointment
+- Hospital
+
+Requirements:
+
+- A Hospital maintains multiple Doctors and Patients.
+- Patients can book appointments.
+- Doctors have different consultation fees based on specialization.
+- Validate patient details.
+- Log every appointment.
+- Generate a summary showing the total consultation revenue for each doctor.
+- Display the doctor with the highest revenue.
+
+
+--------------------------------------------------
+Q45. Airline Reservation System
+--------------------------------------------------
+
+Create the following classes:
+
+- Passenger
+- Flight
+- Booking
+
+Requirements:
+
+- A Flight has limited seats.
+- Passengers can reserve or cancel bookings.
+- Raise exceptions for overbooking.
+- Log every booking and cancellation.
+- Calculate total ticket revenue.
+- Display flights sorted by occupancy percentage using a lambda function.
+- Save booking details to a file.
+
+
+--------------------------------------------------
+Q46. Employee Performance Tracker
+--------------------------------------------------
+
+Create the following classes:
+
+- Employee
+- Project
+- Company
+
+Requirements:
+
+- Employees can work on multiple projects.
+- Calculate performance scores based on project completion.
+- Use inheritance for different employee roles.
+- Override the bonus calculation method.
+- Log performance reviews.
+- Display the top-performing employees.
+- Build a dictionary
+  {employee_name: performance_score}.
+
+
+--------------------------------------------------
+Q47. Food Delivery Platform
+--------------------------------------------------
+
+Create the following classes:
+
+- Customer
+- Restaurant
+- MenuItem
+- DeliveryOrder
+
+Requirements:
+
+- Restaurants maintain multiple MenuItems.
+- Customers can place multiple orders.
+- Apply promotional discounts.
+- Validate order quantities.
+- Log every completed delivery.
+- Display the highest earning restaurant.
+- Generate a summary of customer spending.
+
+
+--------------------------------------------------
+Q48. Insurance Claim Processing System
+--------------------------------------------------
+
+Create the following classes:
+
+- Customer
+- Policy
+- Claim
+
+Requirements:
+
+- Customers may own multiple policies.
+- Claims should be validated before approval.
+- Different policy types should have different claim limits.
+- Use polymorphism to calculate approved claim amounts.
+- Log every processed claim.
+- Raise exceptions for invalid claims.
+- Display approved and rejected claims separately.
+
+
+--------------------------------------------------
+Q49. Smart Parking Management System
+--------------------------------------------------
+
+Create the following classes:
+
+- Vehicle
+- ParkingSlot
+- ParkingLot
+
+Requirements:
+
+- Different vehicle types should have different parking charges.
+- Allocate and release parking slots.
+- Raise exceptions when no slots are available.
+- Log every vehicle entry and exit.
+- Calculate total parking revenue.
+- Display occupied slots sorted by parking duration.
+- Save parking history to a file.
+
+
+--------------------------------------------------
+Q50. University ERP System
+--------------------------------------------------
+
+Design a simplified University ERP.
+
+Create the following classes:
+
+- Student
+- Professor
+- Course
+- Enrollment
+
+Requirements:
+
+- Students can enroll in multiple courses.
+- Professors can teach multiple courses.
+- Validate course enrollment.
+- Prevent duplicate enrollments using exception handling.
+- Calculate grades for every enrolled student.
+- Use decorators to log grade generation time.
+- Maintain logs for enrollments and results.
+- Generate the following reports:
+
+  • Student-wise grade report
+
+  • Course-wise average marks
+
+  • Professor-wise teaching load
+
+  • Top 5 students based on average marks
+
+  • Dictionary
+    {student_name: GPA}
+
+- Save the final reports to separate files.
