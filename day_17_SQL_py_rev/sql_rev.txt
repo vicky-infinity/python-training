@@ -1,0 +1,102 @@
+Phase 1 - Database Basics
+│
+├── What is a Database?
+├── What is a Table?
+├── Rows vs Columns
+├── Primary Key
+├── Foreign Key
+    dept_id int not nul,
+    foreign key (dept_id)
+    references departmat(deptid)
+├── Data Types
+│
+Phase 2 - CREATE
+│
+├── CREATE DATABASE
+    create database database VMcorp
+├── CREATE TABLE
+    create table employee(
+        emp_id int primary key, name varchar(50), email varchar 200 not null unique, dept_id int not null,
+        foreign key (dept_id)
+        referances departmat(dept_id)
+    )
+├── Constraints
+│     ├── PRIMARY KEY
+│     ├── FOREIGN KEY
+│     ├── UNIQUE
+│     ├── NOT NULL
+│     ├── CHECK
+          age int not null check (age >=18)
+│     ├── DEFAULT
+        country  varchar(30) not null  default 'india'
+│
+Phase 3 - ALTER
+│
+├── Add Column 
+    alter table employee add salary int
+├── Modify Column
+    alter table employee modify salary varchar
+├── Rename Column
+    alter table employee rename column name to emp_name
+├── Drop Column
+    alter table employee drop name
+│
+Phase 4 - INSERT
+│
+├── Insert One Row
+    insert into employee (name, age) values ('jhon',56)
+├── Insert Multiple Rows
+├── Insert from another Table
+│
+Phase 5 - READ (SELECT)
+│
+├── SELECT *
+├── WHERE
+├── Operators
+├── ORDER BY
+├── LIMIT
+├── DISTINCT
+├── ALIAS
+│
+Phase 6 - UPDATE
+│
+├── Update Single Row
+├── Update Multiple Rows 
+│
+Phase 7 - DELETE
+│
+├── Delete Particular Rows
+    delete from employee
+    where empid = 101
+├── Delete All Rows
+├── TRUNCATE
+├── DROP TABLE
+│
+Phase 8 - Functions
+│
+├── Aggregate Functions
+├── String Functions
+├── Date Functions
+│
+Phase 9 - GROUP BY
+│
+├── GROUP BY
+├── HAVING
+│
+Phase 10 - JOINS
+│
+├── INNER
+├── LEFT
+├── RIGHT
+├── FULL
+├── SELF
+│
+Phase 11 - Subqueries
+│
+Phase 12 - Window Functions
+│
+Phase 13 - CTE
+│
+Phase 14 - Views
+│
+Phase 15 - Indexes
