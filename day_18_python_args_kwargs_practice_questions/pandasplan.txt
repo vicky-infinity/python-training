@@ -1,0 +1,48 @@
+Phase 1 — Data Selection & Filtering ⭐⭐⭐⭐⭐
+
+This is the highest priority because almost every DataFrame operation starts with selecting or filtering data.
+
+We'll master:
+
+1. Selecting Columns
+2. Selecting Rows
+3. loc[]
+4. iloc[]
+5. Boolean Filtering
+6. Multiple Conditions (&, |, ~)
+7. isin()
+8. between()
+9. query()
+10. Filtering Strings
+11. Filtering Missing Values
+12. Filtering Duplicates
+13. Sorting Data
+14. Selecting Top/Bottom Records
+15. Conditional Updates
+Phase 2 — Data Manipulation ⭐⭐⭐⭐⭐
+16. Creating Columns
+17. Updating Columns
+18. Dropping Rows
+19. Dropping Columns
+20. rename()
+21. replace()
+22. map()
+23. apply()
+24. applymap()
+25. assign()
+26. astype()
+27. fillna()
+28. dropna()
+29. duplicated()
+30. drop_duplicates()
+Phase 3 — Working with Multiple DataFrames ⭐⭐⭐⭐⭐
+31. concat()
+32. merge()
+33. join()
+34. append() (Deprecated)
+35. groupby()
+36. agg()
+37. pivot_table()
+38. melt()
+39. stack()
+40. unstack()

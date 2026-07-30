@@ -11,9 +11,7 @@
 mylst = []
 
 while True:
-
-    for i in range(1,6):
-        
+    for i in range(1,6):    
         try:
             userinp = int(input("Enter 5 numbers"))
             if userinp == "exit":
@@ -25,12 +23,9 @@ while True:
                 for i in mylst:
                     if i >= large:
                         large = i
-
                 lstsum = 0
                 for i in mylst:
-
-                    lstsum += i 
-            
+                    lstsum += i             
         except Exception as e:
             print("Please enter the valid number only")
             continue
